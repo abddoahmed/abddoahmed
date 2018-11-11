@@ -238,7 +238,7 @@ function play(guild, song) {
 }
  
 const adminprefix = "$vip";
-const devs = ['274923685985386496'];
+const devs = ['254338104238800896'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -264,18 +264,18 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
  
 client.on("message", message => {
- if (message.content === 'c!help') {
+ if (message.content === 'Khelp') {
   const embed = new Discord.RichEmbed()
       .setColor("#000000")
       .setDescription(`
-c!play ⇏ لتشغيل أغنية برابط أو بأسم
-c!skip ⇏ لتجاوز الأغنية الحالية
-c!pause ⇏ ايقاف الأغنية مؤقتا
-c!resume ⇏ لمواصلة الإغنية بعد ايقافها مؤقتا
-c!vol ⇏ لتغيير درجة الصوت 100 - 0
-c!stop ⇏ لإخرآج البوت من الروم
-c!np ⇏ لمعرفة الأغنية المشغلة حاليا
-c!queue ⇏ لمعرفة قائمة التشغيل
+kplay ⇏ لتشغيل أغنية برابط أو بأسم
+kskip ⇏ لتجاوز الأغنية الحالية
+kpause ⇏ ايقاف الأغنية مؤقتا
+kresume ⇏ لمواصلة الإغنية بعد ايقافها مؤقتا
+kvol ⇏ لتغيير درجة الصوت 100 - 0
+kstop ⇏ لإخرآج البوت من الروم
+knp ⇏ لمعرفة الأغنية المشغلة حاليا
+kqueue ⇏ لمعرفة قائمة التشغيل
  `)
    message.channel.sendEmbed(embed)
    
