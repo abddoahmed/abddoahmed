@@ -29,14 +29,14 @@ client.on('message', msg => {
  
 client.on('message', msg => {
   if (msg.content === '!') {
-    msg.reply('Welcome To CRIMINAL MINDS :revolving_hearts:,!');
+    msg.reply('Welcome To BLACK BINK :revolving_hearts:,!');
   }
 });
  
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` CM For Ever `,"http://twitch.tv/S-F")
+client.user.setGame(` BLACK BINK `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -63,7 +63,7 @@ client.user.setGame(` CM For Ever `,"http://twitch.tv/S-F")
  
  
 client.on('ready',  () => {
-  console.log('By : عنان اوفر ');
+  console.log('By : KOKA ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -78,9 +78,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『Bot 1 | CRIMINAL MINDS』 『اسم البوت』", true)
+      .addField("『Bot  | BLACK BINK』 『اسم البوت』", true)
      
-      .addField("『مصمم البوت CM For Ever』", true)
+      .addField("『مصمم البوت!- BLACK BINK』", true)
      
       .addField("『!help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
      
